@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 200;
+    src: url(./ItalianPlateNo2Expanded-ExtraLight.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 300;
+    src: url(./ItalianPlateNo2Expanded-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./ItalianPlateNo2Expanded-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./ItalianPlateNo2Expanded-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 600;
+    src: url(./ItalianPlateNo2Expanded-DemiBold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./ItalianPlateNo2Expanded-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Italian Plate No2 Expanded';
+    font-style: normal;
+    font-weight: 800;
+    src: url(./ItalianPlateNo2Expanded-ExtraBold.woff2) format('woff2');
+}
