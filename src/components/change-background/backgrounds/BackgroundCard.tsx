@@ -17,13 +17,13 @@ function BackgroundCard({ background }: { background: IBackground }) {
       onClick={() => handleSetDefaultBg(background.id)}
       key={background.id}
       className={cn(
-        "bg-primary w-full rounded-xl cursor-pointer overflow-hidden relative outline-[3px] outline-transparent min-h-[198px] lg:min-w-[112px]",
+        "bg-primary w-full rounded-xl cursor-pointer overflow-hidden relative outline-[3px] outline-transparent min-h-[198px] md:min-h-[297px] lg:min-h-[198px] lg:min-w-[112px]",
         defaultBgIndex === background.id && "outline-primary"
       )}
       style={{
-        backgroundImage: background.isGenerating ? "none" : `url(${
-          background.backgroundsHistory[background.historyIndex]
-        })`,
+        backgroundImage: background.isGenerating
+          ? "none"
+          : `url(${background.backgroundsHistory[background.historyIndex]})`,
       }}
     >
       {defaultBgIndex === background.id && (
