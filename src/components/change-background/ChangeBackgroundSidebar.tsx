@@ -12,7 +12,7 @@ function ChangeBackgroundSidebar() {
   return (
     <Sidebar side="right" collapsible="offcanvas">
       <SidebarHeader>
-        <h2 className="text-[22px] font-semibold text-primary pb-2">Change background</h2>
+        <h2 className="text-[22px] font-bold text-primary pb-2">Change background</h2>
       </SidebarHeader>
       <SidebarContent>
         <BackgroundPromptForm />

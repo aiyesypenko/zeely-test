@@ -20,7 +20,7 @@ function PromptInput() {
     <div className="flex flex-col gap-3">
       <label
         htmlFor="background-prompt"
-        className="text-sm font-medium text-primary"
+        className="text-sm font-semibold text-primary"
       >
         Background idea
       </label>

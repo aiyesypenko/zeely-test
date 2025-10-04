@@ -27,7 +27,7 @@ function BackgroundCard({ background }: { background: IBackground }) {
       }}
     >
       {defaultBgIndex === background.id && (
-        <div className="absolute top-2 pt-1 left-2 border bg-white font-semibold h-4.5 flex items-center justify-center blur-15 rounded-sm px-1.5 py-0.5 text-[10px] uppercase">
+        <div className="absolute top-2 pt-1 left-2 border bg-white font-bold h-4.5 flex items-center justify-center blur-15 rounded-sm px-1.5 py-0.5 text-[10px] uppercase">
           default
         </div>
       )}

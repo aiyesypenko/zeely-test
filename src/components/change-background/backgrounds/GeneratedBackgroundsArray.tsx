@@ -6,7 +6,7 @@ function GeneratedBackgroundsArray() {
 
   return (
     <div className="pt-10 pb-5">
-      <p className="mb-3 text-sm font-medium">Your backgrounds</p>
+      <p className="mb-3 text-sm font-semibold">Your backgrounds</p>
       <div className="grid grid-cols-3 gap-2.5 px-1">
         {backgrounds.map((background) => (
           <BackgroundCard key={background.id} background={background} />

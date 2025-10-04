@@ -7,8 +7,8 @@ function NoBackgroundsPlaceholder() {
       style={{ backgroundImage: `url(${NoBackgroundsPlaceholderImage})` }}
     >
       <div>
-        <h3 className="text-md font-semibold text-primary pb-1">Replace BG with AI</h3>
-        <p className="text-sm text-muted-foreground max-w-[150px]">
+        <h3 className="text-md font-bold text-primary pb-1">Replace BG with AI</h3>
+        <p className="text-sm font-medium text-muted-foreground max-w-[150px]">
           Give your AI avatar a custom backdrop to create a unique vibe
         </p>
       </div>
